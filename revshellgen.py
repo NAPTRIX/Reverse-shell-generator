@@ -171,7 +171,7 @@ def build_command():
 
 
 def setup_listener():
-    if os.name != 'nt':
+    if os.name != 'nt':  # I hate to beg but please use any OS but Windows 
         print(header.safe_substitute(text='SETUP LISTENER'))
         if select(setup_or_not) == 0:
             os.system('\n$(which ncat || which nc) -nlvp ' + port)
