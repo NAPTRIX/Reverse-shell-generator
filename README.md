@@ -6,3 +6,8 @@ The script relies on four dependencies:
 - colorama
 - readchar
 - netifaces
+
+You can install them by typing:
+
+` pip install pyperclip colorama readchar netifaces `
+
